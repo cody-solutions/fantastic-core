@@ -1,0 +1,46 @@
+{
+  "name": "com.west_tech.fantastic.core",
+  "version": "0.1.6",
+  "displayName": "FantasticCore",
+  "description": "FantasticCore package",
+  "unity": "2022.3",
+  "unityRelease": "16f1",
+  "documentationUrl": "https://battle-hub.gitbook.io/copy-of-battle-core/",
+  "changelogUrl": "https://battle-hub.gitbook.io/copy-of-battle-core/",
+  "licensesUrl": "",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "14.0.9",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.textmeshpro": "3.0.8",
+    "com.unity.addressables": "1.21.20",
+    "com.unity.inputsystem": "1.7.0", 
+    "com.unity.services.core": "1.12.5",
+    "com.unity.services.authentication": "3.3.1",
+    "com.unity.services.lobby": "1.2.0",
+    "com.unity.services.multiplay": "1.1.1",
+    "com.unity.services.matchmaker": "1.1.2"
+  },
+  "keywords": [
+    "core",
+    "module"
+  ],
+  "author": {
+    "name": "West Tech",
+    "email": "",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "Boot Game Sample",
+      "description": "Example which show initialization of FantasticCore package in runtime",
+      "path": "Samples~/Boot Game"
+    },
+    {
+      "displayName": "Get FantasticModule Sample",
+      "description": "Example which show how to get FantasticModule",
+      "path": "Samples~/Get Fantastic Module"
+    }
+  ]
+}
